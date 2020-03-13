@@ -35,9 +35,9 @@ module.exports = robot => {
 
   async function getStonks() {
     const { data } = await axios.get(URL);
-    const { open, close } = data[FUNCTION_KEY][TODAY];
-    const openNum = parseFloat(open);
-    const closeNum = parseFloat(close);
+    const today = data[FUNCTION_KEY][TODAY];
+    const openNum = parseFloat(today["1. open"]);
+    const closeNum = parseFloat(today["4. close"]);
     if (closeNum > openNum) {
       return stonksyes;
     } else {
