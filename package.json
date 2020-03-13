@@ -1,6 +1,6 @@
 {
   "name": "hubot-stonks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "goedken <alexgoedken@gmail.com>",
   "description": "stonks",
   "dependencies": {
