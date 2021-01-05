@@ -4,7 +4,7 @@
   "author": "goedken <alexgoedken@gmail.com>",
   "description": "stonks",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
